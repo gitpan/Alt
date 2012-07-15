@@ -26,4 +26,4 @@ resources:
     type: git
     url: git://github.com/ingydotnet/alt-pm.git
     web: https://github.com/ingydotnet/alt-pm/tree
-version: 0.02
+version: 0.03
