@@ -1,29 +1,26 @@
 ---
 abstract: 'Alternate Module Implementations'
 author:
-  - 'Ingy döt Net <ingy@cpan.org>'
-build_requires:
-  ExtUtils::MakeMaker: 6.36
+  - 'Ingy döt Net <ingy@ingy.net>'
+build_requires: {}
 configure_requires:
-  ExtUtils::MakeMaker: 6.36
-distribution_type: module
-dynamic_config: 1
-generated_by: 'Module::Install version 1.06'
-license: artistic
+  ExtUtils::MakeMaker: '6.30'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.132830'
+license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
-module_name: Alt
+  version: '1.4'
 name: Alt
 no_index:
   directory:
     - inc
     - t
+    - xt
+requires:
+  perl: v5.8.1
 resources:
-  homepage: https://github.com/ingydotnet/alt-pm/tree
-  license: http://opensource.org/licenses/artistic-license.php
-  repository:
-    type: git
-    url: git://github.com/ingydotnet/alt-pm.git
-    web: https://github.com/ingydotnet/alt-pm/tree
-version: 0.04
+  bugtracker: https://github.com/ingydotnet/alt-pm/issues
+  homepage: https://github.com/ingydotnet/alt-pm
+  repository: https://github.com/ingydotnet/alt-pm.git
+version: '0.05'
