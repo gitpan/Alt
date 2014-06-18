@@ -1,3 +1,6 @@
+0.06 Wed Jun 18 10:51:06 PDT 2014
+ - Add test prereq Test::Exception
+
 0.05 Sun Jun 15 14:06:36 PDT 2014
  - Switch to Zilla-Dist
 
