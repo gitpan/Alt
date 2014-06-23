@@ -2,12 +2,14 @@
 Changes
 LICENSE
 MANIFEST
+META.json
 META.yml
 Makefile.PL
 README
 lib/Alt.pm
 lib/Alt.pod
 lib/Alt/Assert.pm
+lib/Alt/Assert.pod
 t/alt.t
 t/assert.t
 t/lib/Alt/Bar/one.pm

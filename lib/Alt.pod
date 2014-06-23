@@ -90,11 +90,11 @@ If another module wants his version of IO::All, it should list Alt::IO::All::MST
 
 It is important to use the C<no_index> directive on the modules you are providing an alternative to. This is especially important if you are the author of the original, as PAUSE will reindex CPAN to your Alt- version which defeats the purpose. Even if you are not the same author, it will make your index reports not show failures.
 
-=back
-
 =item Other Concerns
 
 If you have em, I(ngy) would like to know them. Discuss on #toolchain on irc.perl.org for now.
+
+=back
 
 =head1 Author
 
