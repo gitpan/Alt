@@ -1,16 +1,16 @@
-Name
+NAME
     Alt - Alternate Module Implementations
 
-Synopsis
+SYNOPSIS
         cpanm Alt::IO::All::crackfueled
 
-Description
+DESCRIPTION
     "Alt::" is the namespace for alternate implementations of CPAN modules.
 
     The purpose of the Alt module is to provide documentation explaining the
     Alt concept, how it works, and guidelines for using it well.
 
-The Problem
+THE PROBLEM
     For a given piece of software, CPAN only allows for one implementation
     of a given module/distribution name.
 
@@ -21,7 +21,7 @@ The Problem
     this, as they cannot release newer or older forks of their code, without
     introducing a new name.
 
-The Solution
+THE SOLUTION
     A module "Foo::Bar" is distributed on CPAN as "Foo-Bar". It may have
     submodules like "Foo::Bar::Baz".
 
@@ -40,7 +40,7 @@ The Solution
     for an Alternate implementation. If they don't like it, they can simply
     reinstall the original Foo-Bar, or try some other alternate.
 
-Whence Alt?
+WHENCE ALT?
     The Alt- concept was thought up by Ingy as he tried to figure out how to
     revamp the somewhat popular IO::All and YAML.pm modules. Alternates can
     now be released and alpha/beta tested, while the originals remain
@@ -49,7 +49,7 @@ Whence Alt?
     When Alt-IO-All-new is "community approved" it can replace IO-All. If
     people want the old code, they can can install Alt-IO-All-old.
 
-Guidelines
+GUIDELINES
     This idea is new, and the details should be sorted out through proper
     discussions. Pull requests welcome.
 
@@ -111,10 +111,10 @@ Guidelines
         If you have em, I(ngy) would like to know them. Discuss on
         #toolchain on irc.perl.org for now.
 
-Author
+AUTHOR
     Ingy döt Net <ingy@cpan.org>
 
-Copyright
+COPYRIGHT
     Copyright 2012-2014. Ingy döt Net.
 
     See <http://www.perl.com/perl/misc/Artistic.html>
