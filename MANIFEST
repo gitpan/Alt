@@ -11,6 +11,7 @@ lib/Alt.pm
 lib/Alt.pod
 lib/Alt/Assert.pm
 lib/Alt/Assert.pod
+t/000-compile-modules.t
 t/alt.t
 t/assert.t
 t/lib/Alt/Bar/one.pm
