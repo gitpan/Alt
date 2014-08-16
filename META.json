@@ -1,7 +1,7 @@
 {
    "abstract" : "Alternate Module Implementations",
    "author" : [
-      "Ingy döt Net <ingy@ingy.net>"
+      "Ingy döt Net <ingy@cpan.org>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.132830",
@@ -55,6 +55,6 @@
          "web" : "https://github.com/ingydotnet/alt-pm"
       }
    },
-   "version" : "0.14"
+   "version" : "0.15"
 }
 

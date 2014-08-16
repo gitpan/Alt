@@ -1,7 +1,7 @@
 ---
 abstract: 'Alternate Module Implementations'
 author:
-  - 'Ingy döt Net <ingy@ingy.net>'
+  - 'Ingy döt Net <ingy@cpan.org>'
 build_requires:
   Test::Exception: '0'
 configure_requires:
@@ -25,4 +25,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/alt-pm/issues
   homepage: https://github.com/ingydotnet/alt-pm
   repository: https://github.com/ingydotnet/alt-pm.git
-version: '0.14'
+version: '0.15'
